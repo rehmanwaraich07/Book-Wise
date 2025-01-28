@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import React from "react";
 
-export default function Home() {
+const Home = () => {
   return (
-   <>
-    <Button variant={"secondary"}>Click me</Button>
-   </>
+    <>
+      <Button>Click</Button>
+    </>
   );
-}
+};
+
+export default Home;
